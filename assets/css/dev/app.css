@@ -100,8 +100,8 @@ body {
 
 .hero-header {
   background-image:
-    url("../assets/img/webp/fondos/bg-christmas-colony.webp"),
-    url("../assets/img/jpg/fondos/bg-christmas-colony.jpg");
+    url("../../../assets/img/webp/fondos/bg-christmas-colony.webp"),
+    url("../../../assets/img/jpg/fondos/bg-christmas-colony.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -207,7 +207,7 @@ body {
   border-image-width: 20px 20px 20px 20px;
   border-image-outset: 0px 0px 0px 0px;
   border-image-repeat: stretch stretch;
-  border-image-source: url("../assets/img/png/otros/Popup.png");
+  border-image-source: url("../../../assets/img/png/otros/Popup.png");
   background-color: var(--bg-popup);
   clip-path: polygon(0 18px, 20px 0, calc(100% - 18px) 0%, 100% 16px, 100% calc(100% - 18px), calc(100% - 18px) 100%, 18px 100%, 0px calc(100% - 18px));
   border-top-left-radius: 24px;
@@ -241,7 +241,7 @@ body {
   margin: 0;
   font-family: var(--main-font-family-3);
   list-style-image:
-    url("../assets/img/webp/otros/circle.webp");
+    url("../../../assets/img/webp/otros/circle.webp");
 }
 
 .changelog-list li {
