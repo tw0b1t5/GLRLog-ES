@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Esparragon';
+  font-style: swap;
+  font-weight: 400;
+  font-display: swap; /* or block, swap, fallback, optional */
+  src: local('font_esparragon'),
+      url('/assets/fonts/woff2/1315_EmbeddedAssets_FontEsparragon_font_esparragon.woff2') format('woff2'), /* will be preloaded */
+      url('/assets/fonts/woff/1315_EmbeddedAssets_FontEsparragon_font_esparragon.woff') format('woff'),
+      url('/assets/fonts/ttf/1315_EmbeddedAssets_FontEsparragon_font_esparragon.ttf') format('truetype'),
+      url('/assets/fonts/eot/1315_EmbeddedAssets_FontEsparragon_font_esparragon.eot') format('embedded-opentype'); /* No funciona */
+  /*unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Komika Axis';
+  font-style: swap;
+  font-weight: 400;
+  font-display: swap; /* or block, swap, fallback, optional */
+  src: local('Komika Axis'),
+      url('/assets/fonts/woff2/KOMIKAX.woff2') format('woff2'), /* will be preloaded */
+      url('/assets/fonts/woff/KOMIKAX.woff') format('woff'),
+      url('/assets/fonts/ttf/KOMIKAX.ttf') format('truetype'),
+      url('/assets/fonts/eot/KOMIKAX.eot') format('embedded-opentype');
+  /*unicode-range: U+000-5FF; /* Latin glyphs */
+}
